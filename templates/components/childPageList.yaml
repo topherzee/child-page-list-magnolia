@@ -1,0 +1,4 @@
+title: childPageList
+renderType: freemarker
+templateScript: /child-page-list-magnolia/templates/components/childPageList.ftl
+dialog: child-page-list-magnolia:components/childPageList
