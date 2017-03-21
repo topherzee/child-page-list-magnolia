@@ -1,11 +1,8 @@
 {
   "name": "child-page-list-magnolia",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Child page list - Component Template for Magnolia",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/topherzee/child-page-list-magnolia.git"

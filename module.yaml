@@ -1,5 +1,5 @@
-version: 0.0.1
+version: 0.0.2
 displayName: Child Page List
 dependencies:
   core:
-    version: 5.4.7/*
+    version: 5.0.0/*

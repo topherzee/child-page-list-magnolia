@@ -1,26 +1,26 @@
 # Child Page List - Component template for Magnolia CMS
 
-List of child pages.
+A list of the direct child pages with links.
 
 ## Features
-> [Provide a list of the key features this component provides for content authors. Include screenshots of the rendered component and the dialog.]
+* Outputs an unordered list of links to the direct children of the current page.
+* Author can specify the maximum number of pages to list.
 
 ![Demo page with component](_dev/README-child-page-list.png)
 
 ![Component Dialog](_dev/README-child-page-list-dialog.png)
 
 ## Usage
-> [Provide details of how a developer can make the component template available to content authors. This can include any special instructions about webresources or availability. This could include instructions on 3rd party dependencies such as jquery.
-Describe how a template can be configured with parameters if applicable.]
 
-Make the component available to authors, and include the files in `webresources` on your pages using standard magnolia techniques.
+Make the component available to authors using standard magnolia techniques.
 
 (To make this component available on the mtk basic page, you could use the decoration included in `_dev/decorations`.)
 
-## Demo
-> [Provide how to view any included demonstration pages.]
+This component requires Magnolia version 5.5.0 or greater, because it uses the navfn templating functions.
 
-To see a page demonstrating this component, open the Pages app in Magnolia AdminCentral and import the files in `_dev/demos`. (Import it directly at the root of the tree to see an example of the included css styling.)
+## Demo
+
+To see a page demonstrating this component, open the Pages app in Magnolia AdminCentral and import the files in `_dev/demos`.
 
 ## Information on Magnolia CMS
 This directory is a Magnolia 'light module'.
@@ -40,7 +40,5 @@ Just add `magnolia-light-module` as a keyword to npm's package.json to make them
 MIT
 
 ## Contributors
-
-Magnolia, https://magnolia-cms.com
 
 Christopher Zimmermann, @topherzee
